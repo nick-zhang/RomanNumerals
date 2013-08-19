@@ -10,4 +10,11 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(1);
         assertThat(roman, is("I"));
     }
+
+    @Test
+    public void shouldReturnIIGiven2() {
+        RomanNumerals romanNumerals= new RomanNumerals();
+        String roman = romanNumerals.roman(2);
+        assertThat(roman, is("II"));
+    }
 }

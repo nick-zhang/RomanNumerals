@@ -1,5 +1,9 @@
 public class RomanNumerals {
     public String roman(int numberal) {
-        return "I";
+        if (numberal == 1) {
+            return "I";
+        }
+
+        return "II";
     }
 }
