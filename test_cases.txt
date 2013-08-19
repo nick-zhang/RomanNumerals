@@ -9,7 +9,9 @@ roman(6) -> VI
 roman(7) -> VII
 roman(8) -> VIII
 roman(9) -> IX
+roman(15) -> XV
 roman(10) -> X
+roman(20) -> XX
 roman(50) -> L
 roman(500) -> D
 roman(1000) -> M
