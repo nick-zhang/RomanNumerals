@@ -36,4 +36,10 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(4);
         assertThat(roman, is("IV"));
     }
+
+    @Test
+    public void shouldReturnVGiven5() {
+        String roman = romanNumerals.roman(5);
+        assertThat(roman, is("V"));
+    }
 }
