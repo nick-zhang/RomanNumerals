@@ -17,4 +17,11 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(2);
         assertThat(roman, is("II"));
     }
+
+    @Test
+    public void shouldReturnIIIGiven3() {
+        RomanNumerals romanNumerals= new RomanNumerals();
+        String roman = romanNumerals.roman(3);
+        assertThat(roman, is("III"));
+    }
 }
