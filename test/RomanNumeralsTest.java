@@ -72,4 +72,10 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(10);
         assertThat(roman, is("X"));
     }
+
+    @Test
+    public void shouldReturnXIIIGiven13() {
+        String roman = romanNumerals.roman(13);
+        assertThat(roman, is("XIII"));
+    }
 }
