@@ -12,6 +12,9 @@ public class RomanNumerals {
     }
 
     public String roman(int numeral) {
+        if (numeral == 9)
+            return "IX";
+
         if (numeral > 5)
             return R_NUMERALS.get(5) + R_NUMERALS.get(numeral%5);
 

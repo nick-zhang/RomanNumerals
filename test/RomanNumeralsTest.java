@@ -60,4 +60,10 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(8);
         assertThat(roman, is("VIII"));
     }
+
+    @Test
+    public void shouldReturnIXGiven9() {
+        String roman = romanNumerals.roman(9);
+        assertThat(roman, is("IX"));
+    }
 }
