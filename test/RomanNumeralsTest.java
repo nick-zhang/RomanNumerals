@@ -42,4 +42,22 @@ public class RomanNumeralsTest {
         String roman = romanNumerals.roman(5);
         assertThat(roman, is("V"));
     }
+
+    @Test
+    public void shouldReturnVIGiven6() {
+        String roman = romanNumerals.roman(6);
+        assertThat(roman, is("VI"));
+    }
+
+    @Test
+    public void shouldReturnVIIGiven7() {
+        String roman = romanNumerals.roman(7);
+        assertThat(roman, is("VII"));
+    }
+
+    @Test
+    public void shouldReturnVIIIGiven8() {
+        String roman = romanNumerals.roman(8);
+        assertThat(roman, is("VIII"));
+    }
 }
